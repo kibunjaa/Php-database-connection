@@ -27,11 +27,30 @@ if(isset($_POST["submitbutton"]))
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.20/css/bootstrap.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>About us</title>
 </head>
 <body>
+    <!-- navigation bar -->
+     <!-- <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+        <div class="container-fluid">
+           <a href="#" class="navbar-brand">Zalego Academy</a> 
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardisplaynavigations"  aria-expanded="false" >
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbardisplaynavigations"> 
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#" class="nav-link">About us</a>
+                    <a href="#" class="nav-link">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </nav>  -->
+    <!-- end navigation bar-->
+
     <!-- About us page here-->
-    <div class="row" >
+    
             <div class="bg-secondary bg-opacity-25"><h1>AboutUS</h1>
              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nisi dignissimos, voluptates eaque obcaecati incidunt soluta dolorem repudiandae beatae ipsum temporibus, cupiditate saepe? Aut dolorum, mollitia vero doloribus repudiandae doloremque.</P>
             </div>
@@ -88,16 +107,25 @@ if(isset($_POST["submitbutton"]))
                     <div class="row">
                         <div class="text-center">
                             <div class="card-body">
+                <h7 class="card-subtitle mb-2 text-muted">Subscribe to get information, latest new about <br> Zalego Academy.</h7>  
                                 <h7 class="card-subtitle mb-2 text-muted">Subscribe to get information, latest new about <br> Zalego Academy.</h7>
-                                 <div class="mb-3 col-lg-6">
+                <h7 class="card-subtitle mb-2 text-muted">Subscribe to get information, latest new about <br> Zalego Academy.</h7>  
+                  <form action="about-us.php"method="POST">
+                    <table>
+                        <tr>
+                            <td>
+                                                                 
                                      <input type="email" name="email" class="form-control" placeholder="Enter Your Email Address">
-                                 </div>
-                                <div class="mb-3 col-lg-6">
-                                    <button type="submit"  name="submitbutton" class="btn btn-primary">Subscribe</button>                                                           
+                                     </td>
+                                     <td> 
+                                     <div class="mb-1 col-lg-6">                             
+                                    <button type="submit"  name="submitbutton" class="btn btn-primary">Subscribe</button>  
+                             </div>                                                                                       
                                 </div>
-                             </div>
-                        </div>    
-                    </div>
+                             </div>                                                                                       
+                            </td>                           
+                        </tr>
+                    </table> 
                  </form>
                 </div>
             </div>    
@@ -107,6 +135,7 @@ if(isset($_POST["submitbutton"]))
         </footer>
      <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" -->
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
-    <script src="bootstrap-5.20/js/bootstrap.min.js"></script>
+     <script src="bootstrap-5.20/js/bootstrap.bundle.min.js"></script>
+     <script src="bootstrap-5.20/js/bootstrap.min.js"></script>
 </body>
 </html>
