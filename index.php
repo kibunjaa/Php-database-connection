@@ -55,7 +55,7 @@
         <div class="row pt-5">
             <h1>Contact us</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam molestiae necessitatibus temporibus aliquam dicta mollitia. Totam, eius! Temporibus repellat accusamus numquam consectetur rem fugit, ut iste ratione aut totam optio!</p>
-            <form>
+            <form action="enroll.php"method="POST">
                <div class="row">
                     <div class="mb-3 col-lg-6">
                         <label for="firstname" class="form-label">First Name</label>
