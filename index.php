@@ -19,6 +19,7 @@
            </button>
            <div class="collapse navbar-collapse" id="navbardisplaynavigations"> 
                 <div class="navbar-nav">
+                    
                     <a href="#" class="nav-link active">Home</a>
                     <a href="#" class="nav-link">About us</a>
                     <a href="#" class="nav-link">Contact us</a>
@@ -27,7 +28,7 @@
         </div>
     </nav> -->
     <!-- end navigation bar-->
-    <main class="p-5 nb-4 bg-light rounded-3px">
+    <main class="p-5 mb-4 bg-light rounded-3px">
         <h1>Welcome,Franziska</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur vero pariatur officia saepe quae a? Ea eligendi obcaecati iusto quia, facere dolorem labore possimus perferendis dolore vero impedit ex.</p>
         <button class="btn btn-primary">learnmore</button>
