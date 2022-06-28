@@ -18,11 +18,10 @@
                <span class="navbar-toggler-icon"></span>
            </button>
            <div class="collapse navbar-collapse" id="navbardisplaynavigations"> 
-                <div class="navbar-nav">
-                    
+                <div class="navbar-nav">                  
                     <a href="#" class="nav-link active">Home</a>
-                    <a href="#" class="nav-link">About us</a>
-                    <a href="#" class="nav-link">Contact us</a>
+                    <a href="about-us.php" class="nav-link">About us</a>
+                    <a href="enroll.php" class="nav-link">Register now</a>
                 </div>
             </div>
         </div>

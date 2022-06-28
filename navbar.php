@@ -7,10 +7,9 @@
            </button>
            <div class="collapse navbar-collapse" id="navbardisplaynavigations"> 
                 <div class="navbar-nav">
-                    <a href="index.php" class="nav-link"></a>
-                    <a href="#" class="nav-link active">Home</a>
-                    <a href="#" class="nav-link">About us</a>
-                    <a href="#" class="btn btn-primary" class="nav-link" >Register Now</a>
+                    <a href="index.php" class="nav-link">Home</a>
+                    <a href="aboutus.php" class="nav-link active">Aboutus</a>
+                    <a href="enroll.php"class="btn btn-primary" class="nav-link">Register now</a>
                 </div>
             </div>
         </div>

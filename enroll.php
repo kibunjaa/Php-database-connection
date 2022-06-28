@@ -37,7 +37,7 @@ if(isset($_POST["submitapplication"]))
     <link rel="stylesheet" href="bootstrap-5.20/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome\css\font-awesome.min.css">
     <link rel="stylesheet" href="enroll.css">
-    <title>Document</title>
+    <title>Enroll Us</title>
 </head>
 <body>
     <!-- navigation bar-->
